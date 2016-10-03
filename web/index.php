@@ -22,4 +22,9 @@ $app->get('/', function() use($app) {
   return $app['twig']->render('index.twig');
 });
 
+$app->get('/info', function() use($app) {
+  $app['monolog']->addDebug('info');
+  phpinfo();
+});
+
 $app->run();
