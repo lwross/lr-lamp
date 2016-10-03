@@ -27,4 +27,11 @@ $app->get('/info', function() use($app) {
   phpinfo();
 });
 
+$app->get('/de', function() use($app) {
+  $app['monolog']->addDebug('info');
+  include("fuel/read-de.php");
+});
+
+
+
 $app->run();

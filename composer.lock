@@ -4,9 +4,43 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b773d0e9463c5bb5281e9e8328e851fb",
-    "content-hash": "75944a10eee74fe1ee509b4eef8600af",
+    "hash": "cc4f40657ecaa6a5da112977457eb2c6",
+    "content-hash": "77d57c17344e1d5643c06dffc3cd1417",
     "packages": [
+        {
+            "name": "exacttarget/fuel-sdk-php",
+            "version": "v0.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jdillick/FuelSDK-PHP.git",
+                "reference": "26cf5f9cade51326e0c8cb35964a66654885c8f2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jdillick/FuelSDK-PHP/zipball/26cf5f9cade51326e0c8cb35964a66654885c8f2",
+                "reference": "26cf5f9cade51326e0c8cb35964a66654885c8f2",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-openssl": "*",
+                "ext-soap": "*",
+                "php": ">=5.2.3"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "ET_Client.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "ExactTarget Fuel SDK for PHP",
+            "homepage": "https://code.exacttarget.com/apis-sdks/fuel-sdks/",
+            "time": "2015-01-29 14:41:59"
+        },
         {
             "name": "monolog/monolog",
             "version": "1.21.0",
